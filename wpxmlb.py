@@ -27,7 +27,6 @@ if __name__ == '__main__':
         ctx = ssl.create_default_context()
         ctx.check_hostname = False
         ctx.verify_mode = ssl.CERT_NONE
-        header = 'headers={"Content-Type": "application/xml"}'
 
         # post request
         try:
